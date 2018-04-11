@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0024D11D207C9C190026551E /* UIColor+TBCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0024D11C207C9C190026551E /* UIColor+TBCColor.m */; };
+		0024D120207CA8CF0026551E /* UIColor+TBCResManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0024D11F207CA8CF0026551E /* UIColor+TBCResManager.m */; };
+		0024D123207CA9040026551E /* UIColor+IDPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0024D122207CA9040026551E /* UIColor+IDPExtension.m */; };
+		0024D126207CA9800026551E /* normalColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0024D124207CA9800026551E /* normalColor.plist */; };
+		0024D127207CA9800026551E /* nightColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0024D125207CA9800026551E /* nightColor.plist */; };
+		002B71522040212000D1EE69 /* NSObject+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71512040212000D1EE69 /* NSObject+TBCResColor.m */; };
+		002B7155204022B200D1EE69 /* UIButton+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B7154204022B200D1EE69 /* UIButton+TBCResColor.m */; };
+		002B71582040233300D1EE69 /* UIImageView+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71572040233300D1EE69 /* UIImageView+TBCResColor.m */; };
+		002B715B2040239900D1EE69 /* UILabel+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B715A2040239900D1EE69 /* UILabel+TBCResColor.m */; };
+		002B715E2040244700D1EE69 /* UIBarButtonItem+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B715D2040244700D1EE69 /* UIBarButtonItem+TBCResColor.m */; };
+		002B71612040249D00D1EE69 /* UIControl+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71602040249D00D1EE69 /* UIControl+TBCResColor.m */; };
+		002B7164204024D100D1EE69 /* UINavigationBar+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B7163204024D100D1EE69 /* UINavigationBar+TBCResColor.m */; };
+		002B71672040255500D1EE69 /* UIPageControl+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71662040255500D1EE69 /* UIPageControl+TBCResColor.m */; };
+		002B716A2040258000D1EE69 /* UIToolbar+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71692040258000D1EE69 /* UIToolbar+TBCResColor.m */; };
+		002B716D204025BF00D1EE69 /* UITabBar+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B716C204025BF00D1EE69 /* UITabBar+TBCResColor.m */; };
+		002B7170204025F700D1EE69 /* UITextView+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B716F204025F700D1EE69 /* UITextView+TBCResColor.m */; };
+		002B71732040262E00D1EE69 /* UITextField+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71722040262E00D1EE69 /* UITextField+TBCResColor.m */; };
+		002B71762040265A00D1EE69 /* UITableView+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71752040265A00D1EE69 /* UITableView+TBCResColor.m */; };
+		002B71792040269700D1EE69 /* UISwitch+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71782040269700D1EE69 /* UISwitch+TBCResColor.m */; };
+		002B717C204026D800D1EE69 /* UISlider+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B717B204026D800D1EE69 /* UISlider+TBCResColor.m */; };
+		002B717F2040272400D1EE69 /* UISearchBar+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B717E2040272400D1EE69 /* UISearchBar+TBCResColor.m */; };
+		002B71822040275C00D1EE69 /* UIProgressView+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B71812040275C00D1EE69 /* UIProgressView+TBCResColor.m */; };
+		002B7185204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B7184204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.m */; };
+		002B718B20402A6600D1EE69 /* TBCDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B718720402A6600D1EE69 /* TBCDeallocBlockExecutor.m */; };
+		002B718C20402A6600D1EE69 /* NSObject+DeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B718A20402A6600D1EE69 /* NSObject+DeallocBlock.m */; };
+		003DA217203EB17300FDC6EB /* ESThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 003DA216203EB17300FDC6EB /* ESThemeManager.m */; };
+		003DA2A8203EB63300FDC6EB /* UIColor+TBResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 003DA2A7203EB63300FDC6EB /* UIColor+TBResColor.m */; };
+		00837A92203EDCC6007EF8CF /* ESTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00837A91203EDCC6007EF8CF /* ESTableViewCell.m */; };
+		00837A95203EE474007EF8CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00837A94203EE474007EF8CF /* SecondViewController.m */; };
+		009567F2206DDD9300BDC8BA /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567CE206DDD9300BDC8BA /* YYTextContainerView.m */; };
+		009567F3206DDD9300BDC8BA /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D0206DDD9300BDC8BA /* YYTextInput.m */; };
+		009567F4206DDD9300BDC8BA /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D1206DDD9300BDC8BA /* YYTextLayout.m */; };
+		009567F5206DDD9300BDC8BA /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D2206DDD9300BDC8BA /* YYTextLine.m */; };
+		009567F6206DDD9300BDC8BA /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D5206DDD9300BDC8BA /* YYTextDebugOption.m */; };
+		009567F7206DDD9300BDC8BA /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D6206DDD9300BDC8BA /* YYLabel.m */; };
+		009567F8206DDD9300BDC8BA /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567D9206DDD9300BDC8BA /* YYTextRunDelegate.m */; };
+		009567F9206DDD9300BDC8BA /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567DA206DDD9300BDC8BA /* YYTextParser.m */; };
+		009567FA206DDD9300BDC8BA /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567DE206DDD9300BDC8BA /* YYTextAttribute.m */; };
+		009567FB206DDD9300BDC8BA /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567E0206DDD9300BDC8BA /* YYTextArchiver.m */; };
+		009567FC206DDD9300BDC8BA /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567E1206DDD9300BDC8BA /* YYTextRubyAnnotation.m */; };
+		009567FD206DDD9300BDC8BA /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567E4206DDD9300BDC8BA /* YYTextUtilities.m */; };
+		009567FE206DDD9300BDC8BA /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567E5206DDD9300BDC8BA /* NSParagraphStyle+YYText.m */; };
+		009567FF206DDD9300BDC8BA /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567E6206DDD9300BDC8BA /* NSAttributedString+YYText.m */; };
+		00956800206DDD9300BDC8BA /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567EC206DDD9300BDC8BA /* YYTextTransaction.m */; };
+		00956801206DDD9300BDC8BA /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567ED206DDD9300BDC8BA /* UIView+YYText.m */; };
+		00956802206DDD9300BDC8BA /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567F0206DDD9300BDC8BA /* YYTextAsyncLayer.m */; };
+		00956803206DDD9300BDC8BA /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009567F1206DDD9300BDC8BA /* YYTextWeakProxy.m */; };
+		00956806206DDE5B00BDC8BA /* YYLabel+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00956805206DDE5B00BDC8BA /* YYLabel+TBCResColor.m */; };
+		00C082B41FD576DF00B0C0CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C082B31FD576DF00B0C0CF /* AppDelegate.m */; };
+		00C082B71FD576DF00B0C0CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C082B61FD576DF00B0C0CF /* ViewController.m */; };
+		00C082BA1FD576DF00B0C0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C082B81FD576DF00B0C0CF /* Main.storyboard */; };
+		00C082BC1FD576DF00B0C0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C082BB1FD576DF00B0C0CF /* Assets.xcassets */; };
+		00C082BF1FD576DF00B0C0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C082BD1FD576DF00B0C0CF /* LaunchScreen.storyboard */; };
+		00C082C21FD576DF00B0C0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C082C11FD576DF00B0C0CF /* main.m */; };
+		00C082CA1FD5770400B0C0CF /* UIView+TBCResColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C082C91FD5770400B0C0CF /* UIView+TBCResColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0024D11B207C9C190026551E /* UIColor+TBCColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TBCColor.h"; sourceTree = "<group>"; };
+		0024D11C207C9C190026551E /* UIColor+TBCColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TBCColor.m"; sourceTree = "<group>"; };
+		0024D11E207CA8C20026551E /* UIColor+TBCResManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TBCResManager.h"; sourceTree = "<group>"; };
+		0024D11F207CA8CF0026551E /* UIColor+TBCResManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TBCResManager.m"; sourceTree = "<group>"; };
+		0024D121207CA9040026551E /* UIColor+IDPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IDPExtension.h"; sourceTree = "<group>"; };
+		0024D122207CA9040026551E /* UIColor+IDPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IDPExtension.m"; sourceTree = "<group>"; };
+		0024D124207CA9800026551E /* normalColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = normalColor.plist; sourceTree = "<group>"; };
+		0024D125207CA9800026551E /* nightColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nightColor.plist; sourceTree = "<group>"; };
+		002B71502040212000D1EE69 /* NSObject+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71512040212000D1EE69 /* NSObject+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TBCResColor.m"; sourceTree = "<group>"; };
+		002B7153204022B200D1EE69 /* UIButton+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TBCResColor.h"; sourceTree = "<group>"; };
+		002B7154204022B200D1EE69 /* UIButton+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71562040233300D1EE69 /* UIImageView+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71572040233300D1EE69 /* UIImageView+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71592040239900D1EE69 /* UILabel+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+TBCResColor.h"; sourceTree = "<group>"; };
+		002B715A2040239900D1EE69 /* UILabel+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TBCResColor.m"; sourceTree = "<group>"; };
+		002B715C2040244700D1EE69 /* UIBarButtonItem+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TBCResColor.h"; sourceTree = "<group>"; };
+		002B715D2040244700D1EE69 /* UIBarButtonItem+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TBCResColor.m"; sourceTree = "<group>"; };
+		002B715F2040249D00D1EE69 /* UIControl+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71602040249D00D1EE69 /* UIControl+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TBCResColor.m"; sourceTree = "<group>"; };
+		002B7162204024D100D1EE69 /* UINavigationBar+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TBCResColor.h"; sourceTree = "<group>"; };
+		002B7163204024D100D1EE69 /* UINavigationBar+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71652040255500D1EE69 /* UIPageControl+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71662040255500D1EE69 /* UIPageControl+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71682040258000D1EE69 /* UIToolbar+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71692040258000D1EE69 /* UIToolbar+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+TBCResColor.m"; sourceTree = "<group>"; };
+		002B716B204025BF00D1EE69 /* UITabBar+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+TBCResColor.h"; sourceTree = "<group>"; };
+		002B716C204025BF00D1EE69 /* UITabBar+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+TBCResColor.m"; sourceTree = "<group>"; };
+		002B716E204025F700D1EE69 /* UITextView+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+TBCResColor.h"; sourceTree = "<group>"; };
+		002B716F204025F700D1EE69 /* UITextView+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71712040262E00D1EE69 /* UITextField+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71722040262E00D1EE69 /* UITextField+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71742040265A00D1EE69 /* UITableView+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71752040265A00D1EE69 /* UITableView+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71772040269700D1EE69 /* UISwitch+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71782040269700D1EE69 /* UISwitch+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+TBCResColor.m"; sourceTree = "<group>"; };
+		002B717A204026D800D1EE69 /* UISlider+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISlider+TBCResColor.h"; sourceTree = "<group>"; };
+		002B717B204026D800D1EE69 /* UISlider+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISlider+TBCResColor.m"; sourceTree = "<group>"; };
+		002B717D2040272400D1EE69 /* UISearchBar+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+TBCResColor.h"; sourceTree = "<group>"; };
+		002B717E2040272400D1EE69 /* UISearchBar+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+TBCResColor.m"; sourceTree = "<group>"; };
+		002B71802040275C00D1EE69 /* UIProgressView+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+TBCResColor.h"; sourceTree = "<group>"; };
+		002B71812040275C00D1EE69 /* UIProgressView+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+TBCResColor.m"; sourceTree = "<group>"; };
+		002B7183204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TBCResColor.h"; sourceTree = "<group>"; };
+		002B7184204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TBCResColor.m"; sourceTree = "<group>"; };
+		002B718720402A6600D1EE69 /* TBCDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCDeallocBlockExecutor.m; sourceTree = "<group>"; };
+		002B718820402A6600D1EE69 /* NSObject+DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocBlock.h"; sourceTree = "<group>"; };
+		002B718920402A6600D1EE69 /* TBCDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCDeallocBlockExecutor.h; sourceTree = "<group>"; };
+		002B718A20402A6600D1EE69 /* NSObject+DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocBlock.m"; sourceTree = "<group>"; };
+		003DA215203EB17300FDC6EB /* ESThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESThemeManager.h; sourceTree = "<group>"; };
+		003DA216203EB17300FDC6EB /* ESThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESThemeManager.m; sourceTree = "<group>"; };
+		003DA2A6203EB63300FDC6EB /* UIColor+TBResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TBResColor.h"; sourceTree = "<group>"; };
+		003DA2A7203EB63300FDC6EB /* UIColor+TBResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TBResColor.m"; sourceTree = "<group>"; };
+		00837A90203EDCC6007EF8CF /* ESTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESTableViewCell.h; sourceTree = "<group>"; };
+		00837A91203EDCC6007EF8CF /* ESTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTableViewCell.m; sourceTree = "<group>"; };
+		00837A93203EE474007EF8CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		00837A94203EE474007EF8CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		009567CC206DDD9300BDC8BA /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		009567CD206DDD9300BDC8BA /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		009567CE206DDD9300BDC8BA /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		009567CF206DDD9300BDC8BA /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		009567D0206DDD9300BDC8BA /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		009567D1206DDD9300BDC8BA /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		009567D2206DDD9300BDC8BA /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		009567D3206DDD9300BDC8BA /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		009567D4206DDD9300BDC8BA /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		009567D5206DDD9300BDC8BA /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		009567D6206DDD9300BDC8BA /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		009567D8206DDD9300BDC8BA /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		009567D9206DDD9300BDC8BA /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		009567DA206DDD9300BDC8BA /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		009567DB206DDD9300BDC8BA /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		009567DC206DDD9300BDC8BA /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		009567DD206DDD9300BDC8BA /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		009567DE206DDD9300BDC8BA /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		009567DF206DDD9300BDC8BA /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		009567E0206DDD9300BDC8BA /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		009567E1206DDD9300BDC8BA /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		009567E2206DDD9300BDC8BA /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		009567E4206DDD9300BDC8BA /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		009567E5206DDD9300BDC8BA /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		009567E6206DDD9300BDC8BA /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		009567E7206DDD9300BDC8BA /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		009567E8206DDD9300BDC8BA /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		009567E9206DDD9300BDC8BA /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		009567EA206DDD9300BDC8BA /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		009567EB206DDD9300BDC8BA /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		009567EC206DDD9300BDC8BA /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		009567ED206DDD9300BDC8BA /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		009567EE206DDD9300BDC8BA /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		009567EF206DDD9300BDC8BA /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		009567F0206DDD9300BDC8BA /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		009567F1206DDD9300BDC8BA /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		00956804206DDE5B00BDC8BA /* YYLabel+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYLabel+TBCResColor.h"; sourceTree = "<group>"; };
+		00956805206DDE5B00BDC8BA /* YYLabel+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYLabel+TBCResColor.m"; sourceTree = "<group>"; };
+		00C082AF1FD576DF00B0C0CF /* ESChangeColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESChangeColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C082B21FD576DF00B0C0CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00C082B31FD576DF00B0C0CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00C082B51FD576DF00B0C0CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00C082B61FD576DF00B0C0CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00C082B91FD576DF00B0C0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C082BB1FD576DF00B0C0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C082BE1FD576DF00B0C0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C082C01FD576DF00B0C0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C082C11FD576DF00B0C0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C082C81FD5770400B0C0CF /* UIView+TBCResColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TBCResColor.h"; sourceTree = "<group>"; };
+		00C082C91FD5770400B0C0CF /* UIView+TBCResColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TBCResColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C082AC1FD576DF00B0C0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0024D11A207C9BDB0026551E /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0024D125207CA9800026551E /* nightColor.plist */,
+				0024D124207CA9800026551E /* normalColor.plist */,
+				0024D11B207C9C190026551E /* UIColor+TBCColor.h */,
+				0024D11C207C9C190026551E /* UIColor+TBCColor.m */,
+				0024D11E207CA8C20026551E /* UIColor+TBCResManager.h */,
+				0024D11F207CA8CF0026551E /* UIColor+TBCResManager.m */,
+				0024D121207CA9040026551E /* UIColor+IDPExtension.h */,
+				0024D122207CA9040026551E /* UIColor+IDPExtension.m */,
+			);
+			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
+		002B714F2040210200D1EE69 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				002B71502040212000D1EE69 /* NSObject+TBCResColor.h */,
+				002B71512040212000D1EE69 /* NSObject+TBCResColor.m */,
+				00C082C81FD5770400B0C0CF /* UIView+TBCResColor.h */,
+				00C082C91FD5770400B0C0CF /* UIView+TBCResColor.m */,
+				002B7153204022B200D1EE69 /* UIButton+TBCResColor.h */,
+				002B7154204022B200D1EE69 /* UIButton+TBCResColor.m */,
+				002B71562040233300D1EE69 /* UIImageView+TBCResColor.h */,
+				002B71572040233300D1EE69 /* UIImageView+TBCResColor.m */,
+				002B71592040239900D1EE69 /* UILabel+TBCResColor.h */,
+				002B715A2040239900D1EE69 /* UILabel+TBCResColor.m */,
+				002B715C2040244700D1EE69 /* UIBarButtonItem+TBCResColor.h */,
+				002B715D2040244700D1EE69 /* UIBarButtonItem+TBCResColor.m */,
+				002B715F2040249D00D1EE69 /* UIControl+TBCResColor.h */,
+				002B71602040249D00D1EE69 /* UIControl+TBCResColor.m */,
+				002B7162204024D100D1EE69 /* UINavigationBar+TBCResColor.h */,
+				002B7163204024D100D1EE69 /* UINavigationBar+TBCResColor.m */,
+				002B71652040255500D1EE69 /* UIPageControl+TBCResColor.h */,
+				002B71662040255500D1EE69 /* UIPageControl+TBCResColor.m */,
+				002B71682040258000D1EE69 /* UIToolbar+TBCResColor.h */,
+				002B71692040258000D1EE69 /* UIToolbar+TBCResColor.m */,
+				002B716B204025BF00D1EE69 /* UITabBar+TBCResColor.h */,
+				002B716C204025BF00D1EE69 /* UITabBar+TBCResColor.m */,
+				002B716E204025F700D1EE69 /* UITextView+TBCResColor.h */,
+				002B716F204025F700D1EE69 /* UITextView+TBCResColor.m */,
+				002B71712040262E00D1EE69 /* UITextField+TBCResColor.h */,
+				002B71722040262E00D1EE69 /* UITextField+TBCResColor.m */,
+				002B71742040265A00D1EE69 /* UITableView+TBCResColor.h */,
+				002B71752040265A00D1EE69 /* UITableView+TBCResColor.m */,
+				002B71772040269700D1EE69 /* UISwitch+TBCResColor.h */,
+				002B71782040269700D1EE69 /* UISwitch+TBCResColor.m */,
+				002B717A204026D800D1EE69 /* UISlider+TBCResColor.h */,
+				002B717B204026D800D1EE69 /* UISlider+TBCResColor.m */,
+				002B717D2040272400D1EE69 /* UISearchBar+TBCResColor.h */,
+				002B717E2040272400D1EE69 /* UISearchBar+TBCResColor.m */,
+				002B71802040275C00D1EE69 /* UIProgressView+TBCResColor.h */,
+				002B71812040275C00D1EE69 /* UIProgressView+TBCResColor.m */,
+				002B7183204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.h */,
+				002B7184204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.m */,
+				00956804206DDE5B00BDC8BA /* YYLabel+TBCResColor.h */,
+				00956805206DDE5B00BDC8BA /* YYLabel+TBCResColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		002B718620402A6600D1EE69 /* DeallocBlockExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				002B718920402A6600D1EE69 /* TBCDeallocBlockExecutor.h */,
+				002B718720402A6600D1EE69 /* TBCDeallocBlockExecutor.m */,
+				002B718820402A6600D1EE69 /* NSObject+DeallocBlock.h */,
+				002B718A20402A6600D1EE69 /* NSObject+DeallocBlock.m */,
+			);
+			path = DeallocBlockExecutor;
+			sourceTree = "<group>";
+		};
+		009567CA206DDD9300BDC8BA /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				009567CB206DDD9300BDC8BA /* Component */,
+				009567D7206DDD9300BDC8BA /* String */,
+				009567E3206DDD9300BDC8BA /* Utility */,
+				009567E2206DDD9300BDC8BA /* YYLabel.h */,
+				009567D6206DDD9300BDC8BA /* YYLabel.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		009567CB206DDD9300BDC8BA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				009567CC206DDD9300BDC8BA /* YYTextLine.h */,
+				009567D2206DDD9300BDC8BA /* YYTextLine.m */,
+				009567CD206DDD9300BDC8BA /* YYTextLayout.h */,
+				009567D1206DDD9300BDC8BA /* YYTextLayout.m */,
+				009567D3206DDD9300BDC8BA /* YYTextContainerView.h */,
+				009567CE206DDD9300BDC8BA /* YYTextContainerView.m */,
+				009567CF206DDD9300BDC8BA /* YYTextDebugOption.h */,
+				009567D5206DDD9300BDC8BA /* YYTextDebugOption.m */,
+				009567D4206DDD9300BDC8BA /* YYTextInput.h */,
+				009567D0206DDD9300BDC8BA /* YYTextInput.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		009567D7206DDD9300BDC8BA /* String */ = {
+			isa = PBXGroup;
+			children = (
+				009567D8206DDD9300BDC8BA /* YYTextAttribute.h */,
+				009567DE206DDD9300BDC8BA /* YYTextAttribute.m */,
+				009567DD206DDD9300BDC8BA /* YYTextRunDelegate.h */,
+				009567D9206DDD9300BDC8BA /* YYTextRunDelegate.m */,
+				009567DF206DDD9300BDC8BA /* YYTextParser.h */,
+				009567DA206DDD9300BDC8BA /* YYTextParser.m */,
+				009567DB206DDD9300BDC8BA /* YYTextRubyAnnotation.h */,
+				009567E1206DDD9300BDC8BA /* YYTextRubyAnnotation.m */,
+				009567DC206DDD9300BDC8BA /* YYTextArchiver.h */,
+				009567E0206DDD9300BDC8BA /* YYTextArchiver.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		009567E3206DDD9300BDC8BA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				009567EB206DDD9300BDC8BA /* YYTextUtilities.h */,
+				009567E4206DDD9300BDC8BA /* YYTextUtilities.m */,
+				009567EF206DDD9300BDC8BA /* NSParagraphStyle+YYText.h */,
+				009567E5206DDD9300BDC8BA /* NSParagraphStyle+YYText.m */,
+				009567EE206DDD9300BDC8BA /* NSAttributedString+YYText.h */,
+				009567E6206DDD9300BDC8BA /* NSAttributedString+YYText.m */,
+				009567E7206DDD9300BDC8BA /* UIView+YYText.h */,
+				009567ED206DDD9300BDC8BA /* UIView+YYText.m */,
+				009567E8206DDD9300BDC8BA /* YYTextTransaction.h */,
+				009567EC206DDD9300BDC8BA /* YYTextTransaction.m */,
+				009567E9206DDD9300BDC8BA /* YYTextWeakProxy.h */,
+				009567F1206DDD9300BDC8BA /* YYTextWeakProxy.m */,
+				009567EA206DDD9300BDC8BA /* YYTextAsyncLayer.h */,
+				009567F0206DDD9300BDC8BA /* YYTextAsyncLayer.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		00C082A61FD576DF00B0C0CF = {
+			isa = PBXGroup;
+			children = (
+				0024D11A207C9BDB0026551E /* UIColorCategory */,
+				009567CA206DDD9300BDC8BA /* YYText */,
+				002B718620402A6600D1EE69 /* DeallocBlockExecutor */,
+				002B714F2040210200D1EE69 /* Color */,
+				00C082B11FD576DF00B0C0CF /* ESChangeColor */,
+				00C082B01FD576DF00B0C0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C082B01FD576DF00B0C0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C082AF1FD576DF00B0C0CF /* ESChangeColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C082B11FD576DF00B0C0CF /* ESChangeColor */ = {
+			isa = PBXGroup;
+			children = (
+				003DA2A6203EB63300FDC6EB /* UIColor+TBResColor.h */,
+				003DA2A7203EB63300FDC6EB /* UIColor+TBResColor.m */,
+				003DA215203EB17300FDC6EB /* ESThemeManager.h */,
+				003DA216203EB17300FDC6EB /* ESThemeManager.m */,
+				00837A90203EDCC6007EF8CF /* ESTableViewCell.h */,
+				00837A91203EDCC6007EF8CF /* ESTableViewCell.m */,
+				00C082B21FD576DF00B0C0CF /* AppDelegate.h */,
+				00C082B31FD576DF00B0C0CF /* AppDelegate.m */,
+				00C082B51FD576DF00B0C0CF /* ViewController.h */,
+				00C082B61FD576DF00B0C0CF /* ViewController.m */,
+				00837A93203EE474007EF8CF /* SecondViewController.h */,
+				00837A94203EE474007EF8CF /* SecondViewController.m */,
+				00C082B81FD576DF00B0C0CF /* Main.storyboard */,
+				00C082BB1FD576DF00B0C0CF /* Assets.xcassets */,
+				00C082BD1FD576DF00B0C0CF /* LaunchScreen.storyboard */,
+				00C082C01FD576DF00B0C0CF /* Info.plist */,
+				00C082C11FD576DF00B0C0CF /* main.m */,
+			);
+			path = ESChangeColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C082AE1FD576DF00B0C0CF /* ESChangeColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C082C51FD576DF00B0C0CF /* Build configuration list for PBXNativeTarget "ESChangeColor" */;
+			buildPhases = (
+				00C082AB1FD576DF00B0C0CF /* Sources */,
+				00C082AC1FD576DF00B0C0CF /* Frameworks */,
+				00C082AD1FD576DF00B0C0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESChangeColor;
+			productName = ESChangeColor;
+			productReference = 00C082AF1FD576DF00B0C0CF /* ESChangeColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C082A71FD576DF00B0C0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "申岩";
+				TargetAttributes = {
+					00C082AE1FD576DF00B0C0CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00C082AA1FD576DF00B0C0CF /* Build configuration list for PBXProject "ESChangeColor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C082A61FD576DF00B0C0CF;
+			productRefGroup = 00C082B01FD576DF00B0C0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C082AE1FD576DF00B0C0CF /* ESChangeColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C082AD1FD576DF00B0C0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C082BF1FD576DF00B0C0CF /* LaunchScreen.storyboard in Resources */,
+				00C082BC1FD576DF00B0C0CF /* Assets.xcassets in Resources */,
+				0024D127207CA9800026551E /* nightColor.plist in Resources */,
+				00C082BA1FD576DF00B0C0CF /* Main.storyboard in Resources */,
+				0024D126207CA9800026551E /* normalColor.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C082AB1FD576DF00B0C0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009567FB206DDD9300BDC8BA /* YYTextArchiver.m in Sources */,
+				002B718C20402A6600D1EE69 /* NSObject+DeallocBlock.m in Sources */,
+				009567F9206DDD9300BDC8BA /* YYTextParser.m in Sources */,
+				002B71732040262E00D1EE69 /* UITextField+TBCResColor.m in Sources */,
+				009567F2206DDD9300BDC8BA /* YYTextContainerView.m in Sources */,
+				002B71762040265A00D1EE69 /* UITableView+TBCResColor.m in Sources */,
+				002B7170204025F700D1EE69 /* UITextView+TBCResColor.m in Sources */,
+				002B71582040233300D1EE69 /* UIImageView+TBCResColor.m in Sources */,
+				009567F5206DDD9300BDC8BA /* YYTextLine.m in Sources */,
+				002B7155204022B200D1EE69 /* UIButton+TBCResColor.m in Sources */,
+				009567F6206DDD9300BDC8BA /* YYTextDebugOption.m in Sources */,
+				002B717C204026D800D1EE69 /* UISlider+TBCResColor.m in Sources */,
+				002B71522040212000D1EE69 /* NSObject+TBCResColor.m in Sources */,
+				0024D11D207C9C190026551E /* UIColor+TBCColor.m in Sources */,
+				00837A92203EDCC6007EF8CF /* ESTableViewCell.m in Sources */,
+				002B716A2040258000D1EE69 /* UIToolbar+TBCResColor.m in Sources */,
+				003DA2A8203EB63300FDC6EB /* UIColor+TBResColor.m in Sources */,
+				009567FF206DDD9300BDC8BA /* NSAttributedString+YYText.m in Sources */,
+				009567F8206DDD9300BDC8BA /* YYTextRunDelegate.m in Sources */,
+				009567F7206DDD9300BDC8BA /* YYLabel.m in Sources */,
+				003DA217203EB17300FDC6EB /* ESThemeManager.m in Sources */,
+				009567FE206DDD9300BDC8BA /* NSParagraphStyle+YYText.m in Sources */,
+				002B715E2040244700D1EE69 /* UIBarButtonItem+TBCResColor.m in Sources */,
+				002B7164204024D100D1EE69 /* UINavigationBar+TBCResColor.m in Sources */,
+				00956803206DDD9300BDC8BA /* YYTextWeakProxy.m in Sources */,
+				00C082B71FD576DF00B0C0CF /* ViewController.m in Sources */,
+				002B71612040249D00D1EE69 /* UIControl+TBCResColor.m in Sources */,
+				002B7185204027AC00D1EE69 /* NSMutableAttributedString+TBCResColor.m in Sources */,
+				002B715B2040239900D1EE69 /* UILabel+TBCResColor.m in Sources */,
+				002B716D204025BF00D1EE69 /* UITabBar+TBCResColor.m in Sources */,
+				002B718B20402A6600D1EE69 /* TBCDeallocBlockExecutor.m in Sources */,
+				00837A95203EE474007EF8CF /* SecondViewController.m in Sources */,
+				002B71822040275C00D1EE69 /* UIProgressView+TBCResColor.m in Sources */,
+				009567F4206DDD9300BDC8BA /* YYTextLayout.m in Sources */,
+				002B717F2040272400D1EE69 /* UISearchBar+TBCResColor.m in Sources */,
+				009567FD206DDD9300BDC8BA /* YYTextUtilities.m in Sources */,
+				009567FC206DDD9300BDC8BA /* YYTextRubyAnnotation.m in Sources */,
+				0024D123207CA9040026551E /* UIColor+IDPExtension.m in Sources */,
+				00C082C21FD576DF00B0C0CF /* main.m in Sources */,
+				009567F3206DDD9300BDC8BA /* YYTextInput.m in Sources */,
+				00956806206DDE5B00BDC8BA /* YYLabel+TBCResColor.m in Sources */,
+				00956800206DDD9300BDC8BA /* YYTextTransaction.m in Sources */,
+				002B71792040269700D1EE69 /* UISwitch+TBCResColor.m in Sources */,
+				00C082CA1FD5770400B0C0CF /* UIView+TBCResColor.m in Sources */,
+				00956802206DDD9300BDC8BA /* YYTextAsyncLayer.m in Sources */,
+				00C082B41FD576DF00B0C0CF /* AppDelegate.m in Sources */,
+				00956801206DDD9300BDC8BA /* UIView+YYText.m in Sources */,
+				009567FA206DDD9300BDC8BA /* YYTextAttribute.m in Sources */,
+				002B71672040255500D1EE69 /* UIPageControl+TBCResColor.m in Sources */,
+				0024D120207CA8CF0026551E /* UIColor+TBCResManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00C082B81FD576DF00B0C0CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C082B91FD576DF00B0C0CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00C082BD1FD576DF00B0C0CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C082BE1FD576DF00B0C0CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C082C31FD576DF00B0C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00C082C41FD576DF00B0C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C082C61FD576DF00B0C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = ESChangeColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svgimage.ewane.ESChangeColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00C082C71FD576DF00B0C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTSJXW72F3;
+				INFOPLIST_FILE = ESChangeColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svgimage.ewane.ESChangeColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C082AA1FD576DF00B0C0CF /* Build configuration list for PBXProject "ESChangeColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C082C31FD576DF00B0C0CF /* Debug */,
+				00C082C41FD576DF00B0C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C082C51FD576DF00B0C0CF /* Build configuration list for PBXNativeTarget "ESChangeColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C082C61FD576DF00B0C0CF /* Debug */,
+				00C082C71FD576DF00B0C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C082A71FD576DF00B0C0CF /* Project object */;
+}
