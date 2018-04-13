@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-//#define USE_BLOCK 0
+#define USE_BLOCK 0
 
 #ifdef USE_BLOCK
     typedef UIColor *(^TBCResColorBlock)(void);

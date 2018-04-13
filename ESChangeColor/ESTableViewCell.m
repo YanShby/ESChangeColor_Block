@@ -45,6 +45,7 @@
         [button setTitleColor:[UIColor contColorForKey:@"B"] forState:UIControlStateHighlighted];
         [button setBackgroundColor:[UIColor linkTipColorForKey:@"A"]];
         [self.contentView addSubview:button];
+#endif
     }
     
     return self;
