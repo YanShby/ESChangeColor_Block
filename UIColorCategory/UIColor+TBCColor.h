@@ -12,7 +12,8 @@
 
 @interface UIColor (TBCColor)
 @property (nonatomic, assign) BOOL needColorChange;
-@property (nonatomic, strong) NSString *colorKey;
+@property (nonatomic, copy) NSString *colorKey;
 @property (nonatomic, assign) TBCColorType colorType;
 @property (nonatomic, assign) CGFloat colorAlpha;
+@property (nonatomic, copy) NSString *testProperty;
 @end

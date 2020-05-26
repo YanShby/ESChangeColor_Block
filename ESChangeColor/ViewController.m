@@ -61,11 +61,11 @@
     
     
     // Use hook.
-//    self.view.tbc_backgroundColor = [UIColor linkTipColorForKey:@"D"];
-//
-//    self.tableView.separatorColor = [UIColor otherColorForKey:@"A"];
-//
-//    self.navigationController.navigationBar.barTintColor = [UIColor bgLineColorForKey:@"E"];
+    self.view.tbc_backgroundColor = [UIColor linkTipColorForKey:@"D"];
+
+    self.tableView.separatorColor = [UIColor otherColorForKey:@"A"];
+
+    self.navigationController.navigationBar.barTintColor = [UIColor bgLineColorForKey:@"E"];
 }
 
 - (void)viewWillAppear:(BOOL)animated
